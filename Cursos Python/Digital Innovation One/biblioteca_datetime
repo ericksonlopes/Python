@@ -1,0 +1,55 @@
+from datetime import date, time, datetime
+
+
+def data():
+    data_atual = date.today()
+    data_atual_str = data_atual.strftime('%d/%m')
+
+    print(data_atual)
+    print(data_atual_str)
+
+
+def hora():
+    hora_atual = time(hour=15, minute=18, second=30)
+    # formatando horário para string
+    hora_atual_str = hora_atual.strftime('%H:%M:%S')
+    print(hora_atual_str)
+    print(hora_atual)
+    print(type(hora_atual))
+
+
+def hora_data():
+    data_hora_atual = datetime.today()
+    print(data_hora_atual)
+
+    # converter pra string hora
+    hora_str = data_hora_atual.strftime('%H:%M:%S')
+    print(hora_str)
+
+    # converter pra string data
+    data_atual_str = data_hora_atual.strftime('%d/%m/%Y')
+    print(data_atual_str)
+
+    # converter para string data e hora
+    data_hora_str = data_hora_atual.strftime('%H:%M:%S - %d/%m/%Y')
+    print(data_hora_str)
+
+    # dia da semana mesma coisa para mes
+    dias = ('Seg', 'Ter', 'Qua', 'Qui', 'Sexta', 'Sáb', 'Dom')
+    print(dias[data_hora_atual.weekday()])
+
+    # Criar data
+    data_criada = datetime(2050, 6, 9, 15, 16, 20)
+    print(data_criada)
+
+    # convertendo string para tipo data
+    data_string = '01/01/2200'
+    data_convetida = datetime.strptime(data_string, '%d/%m/%Y')
+    print(data_convetida)
+    print(type(data_convetida))
+
+
+if __name__ == '__main__':
+    # data()
+    # hora()
+    hora_data()
