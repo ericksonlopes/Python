@@ -1,0 +1,4 @@
+frase 1
+frase 2
+frase 3
+frase acrescentada ao ficheiro
