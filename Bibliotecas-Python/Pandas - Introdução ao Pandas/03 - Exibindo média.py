@@ -5,7 +5,7 @@ notas = pd.Series([1, 3, 3, 3, 3, 9, 10], [["Wilfred", "Abbie", "Harry", "Julia"
 
 # função que pega a média dos valores
 print("média: ", notas.mean())
-# função que pega o desvio padrão
+# função que pega o desvio padrão/ 10 - 20 - 30 - > desvio padrão 10
 print("Desvio padrão", notas.std(), '\n')
 
 # Geralmente para resumir brevemente as estatísticas dos dados se usa o .describe()
