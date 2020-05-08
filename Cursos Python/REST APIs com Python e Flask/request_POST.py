@@ -7,4 +7,5 @@ itens = {
     'cidade': 'São Paulo'
 }
 
-red_post = requests.post('http://127.0.0.1:5000/hoteis/Deltas', itens)
+red_post = requests.post('http://127.0.0.1:5000/hoteis/374145', itens)
+print(red_post.text)

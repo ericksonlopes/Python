@@ -7,5 +7,5 @@ itens = {
     'cidade': 'goas'
 }
 
-red_put = requests.put('http://127.0.0.1:5000/hoteis/suzin', itens)
+red_put = requests.put('http://127.0.0.1:5000/hoteis/chaacks', itens)
 print(red_put.text)
