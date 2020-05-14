@@ -1,65 +1,49 @@
-from modelos.modelos import HotelModel
-from flask_restful import Resource, reqparse
+from flask_restful import Resource
+from flask_restful import reqparse
+from models.models import HotelModel
 
 
-# primeiro recurso da api
 class Hoteis(Resource):
-    # função para pegar dado
     def get(self):
         return {'hoteis': [hotel.json() for hotel in HotelModel.query.all()]}
 
 
 class Hotel(Resource):
-    arqgumentos = reqparse.RequestParser()
-    arqgumentos.add_argument('nome', type=str, required=True, help='o nome não pode ser deixado em branco')
-    arqgumentos.add_argument('estrelas', type=float, required=True, help='Colocar estrelas')
-    arqgumentos.add_argument('diaria')
-    arqgumentos.add_argument('cidade')
+    atributos = reqparse.RequestParser()
+    atributos.add_argument('nome')
+    atributos.add_argument('estrelas')
+    atributos.add_argument('diaria')
+    atributos.add_argument('cidade')
 
-    def get(self, hotel_id):
-        hotel = HotelModel.find_hotel(hotel_id)
-        # se existe hotel
-        if hotel is not None:
+    def get(self, id_hotel):
+        hotel = HotelModel.find_hotel(id_hotel)
+        if hotel:
             return hotel.json()
-        return {'message': 'O Hotel não foi encontrado.'}, 404  # informa que não foi encontrado
+        return {'message', 'hotel not found'}, 404
 
-    def post(self, hotel_id):
-        if HotelModel.find_hotel(hotel_id):
-            return {"message": f"hotel id='{hotel_id}' already exists"}, 400  # requisição errada
-        # criar construtor
-        dados = Hotel.arqgumentos.parse_args()
+    def post(self, id_hotel):
+        if HotelModel.find_hotel(id_hotel):
+            return {'message': 'Hotel ja existe'}, 400
 
-        hotel_objeto = HotelModel(hotel_id, **dados)
-        try:
-            hotel_objeto.save_hotel()
-        except:
-            return {'message': 'Erro interno ao salvar no banco de dados'}, 500 # internal erro
-        return hotel_objeto.json()
+        dados = self.atributos.parse_args()
+        hotel = HotelModel(id_hotel, **dados)
+        hotel.save_hotel()
+        return hotel.json()
 
-    def put(self, hotel_id):
-        dados = Hotel.arqgumentos.parse_args()
-
-        hotel_encontrado = HotelModel.find_hotel(hotel_id)
-        # se hotel for encontrado
+    def put(self, id_hotel):
+        dados = Hotel.atributos.parse_args()
+        hotel_encontrado = HotelModel.find_hotel(id_hotel)
         if hotel_encontrado:
             hotel_encontrado.update_hotel(**dados)
-            try:
-                hotel_encontrado.save_hotel()
-            except:
-                return {'message': 'Erro interno ao salvar no banco de dados'}, 500  # internal erro
-            return hotel_encontrado.json(), 200  # atualizado
-
-        hotel = HotelModel(hotel_id, **dados)
+            hotel_encontrado.save_hotel()
+            return hotel_encontrado.json(), 200
+        hotel = HotelModel(id_hotel, **dados)
         hotel.save_hotel()
+        return hotel.json(), 201
 
-        return hotel.json(), 201  # criado
-
-    def delete(self, hotel_id):
-        hotel = HotelModel.find_hotel(hotel_id)
+    def delete(self, id_hotel):
+        hotel = HotelModel.find_hotel(id_hotel)
         if hotel:
-            try:
-                hotel.deleted_hotel()
-            except:
-                return {'message': 'Erro interno ao Deletar no banco de dados'}, 500  # internal erro
-            return {'message': 'Hotel deleted.'}, 200
-        return {'message': 'Hotel not fuound.'}, 404
+            hotel.delete_hotel()
+            return {"message": "Hotel deleted."}, 200
+        return {"Message": "Hotel Not found"}, 404
