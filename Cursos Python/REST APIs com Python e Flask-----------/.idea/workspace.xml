@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21379423-230f-4aa4-abf2-330db7a39b7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Bibliotecas-Python/flask-sqlalchemy Mysql/flask_git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bibliotecas-Python/flask-sqlalchemy Mysql/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bibliotecas-Python/flask-sqlalchemy Mysql/modeleo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bibliotecas-Python/flask-sqlalchemy Mysql/sql_alchemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blacklist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/Flask - SQLAlchemy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/dictionaries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/insert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/req.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/sql_alchemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/Flask - SQLAlchemy/test.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/dictionaries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/sqlalchemy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/01 - criando engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bibliotecas-Python/sqlalchemy/02 - criando tabelas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/REST APIs com Python e Flask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/dictionaries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/banco.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/models/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/requisicao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/resources/hotel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST APIs com Python e Flask/sql_alchemy.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1bqknrFf3R2g50jFfmHbXIIEa9c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Python/tradução do pyCharm/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Compartilhamento de Informações\Git-hub\Python\Cursos Python\REST APIs com Python e Flask\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.blacklist">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="REST APIs com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="REST APIs com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Compartilhamento de Informações\Git-hub\Python\Cursos Python\REST APIs com Python e Flask-----------\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="blacklist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="REST APIs com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blacklist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hotel" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="REST APIs com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Resources" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Resources/hotel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="REST APIs com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requisicao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="REST APIs com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requisicao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.blacklist" />
+        <item itemvalue="Python.requisicao" />
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21379423-230f-4aa4-abf2-330db7a39b7d" name="Default Changelist" comment="" />
+      <created>1589367180714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589367180714</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="282" key="FileChooserDialogImpl" timestamp="1589407314157">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="282" key="FileChooserDialogImpl/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589407314157" />
+    <state width="1899" height="292" key="GridCell.Tab.0.bottom" timestamp="1589490717895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589490717895" />
+    <state width="1899" height="292" key="GridCell.Tab.0.center" timestamp="1589490717895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589490717895" />
+    <state width="1899" height="292" key="GridCell.Tab.0.left" timestamp="1589490717894">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589490717894" />
+    <state width="1899" height="292" key="GridCell.Tab.0.right" timestamp="1589490717895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589490717895" />
+    <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1589465556164">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589465556164" />
+    <state width="1899" height="363" key="GridCell.Tab.1.center" timestamp="1589465556163">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589465556163" />
+    <state width="1899" height="363" key="GridCell.Tab.1.left" timestamp="1589465556163">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589465556163" />
+    <state width="1899" height="363" key="GridCell.Tab.1.right" timestamp="1589465556163">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589465556163" />
+    <state x="461" y="185" key="SettingsEditor" timestamp="1589489213057">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589489213057" />
+    <state x="-1280" y="0" width="1296" height="746" maximized="true" key="dock-window-1" timestamp="1589464425221">
+      <screen x="-1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="-1280" y="0" width="1296" height="746" maximized="true" key="dock-window-1/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1589464425221" />
+  </component>
+</project>

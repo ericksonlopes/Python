@@ -7,7 +7,7 @@ class HotelModel(banco.Model):
     __tablename__ = 'hoteis'
     # criando colunas do banco de dados
     id_hotel = banco.Column(banco.String, primary_key=True)
-    nome = banco.Column(banco.String())
+    nome = banco.Column(banco.String(80))
     estrelas = banco.Column(banco.Float(precision=1))
     diaria = banco.Column(banco.Float(precision=2))
     cidade = banco.Column(banco.String(40))
@@ -50,6 +50,6 @@ class HotelModel(banco.Model):
         self.diaria = diaria
         self.cidade = cidade
 
-    def delete(self):
+    def delete_hotel(self):
         banco.session.delete(self)
         banco.session.commit()
