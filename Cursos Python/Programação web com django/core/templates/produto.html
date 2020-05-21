@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Djno1 - index</title>
+    <title>Produtos</title>
 </head>
 <body>
-    <h1>Index</h1>
-    <h2>{{ curso }}</h2>
-    <h2>{{ outro }}</h2>
-    <h2>{{ user }}</h2>
-
     <table>
         <thead>
             <tr>
@@ -19,14 +14,13 @@
             </tr>
         </thead>
         <tbody>
-        {% for produto in produtos %}
             <tr>
-                <td><a href="{% url 'produto' produto.id %}"> {{ produto.nome }} </a></td>
+                <td><a href="{% url 'index' %}"> {{ produto.nome }} </a></td>
                 <td>{{ produto.preco }}</td>
+                <td>{{ produto.estoque }}</td>
             </tr>
-        {% endfor %}
+
         </tbody>
     </table>
-
 </body>
 </html>
