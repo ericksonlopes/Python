@@ -1,3 +1,0 @@
-BLACKLIST = set()
-
-print(BLACKLIST)
