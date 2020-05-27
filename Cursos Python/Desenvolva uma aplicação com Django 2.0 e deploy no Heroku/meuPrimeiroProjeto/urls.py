@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import hello, articles, procura_nome, procura_nome_pessoa
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('hello/', hello),
@@ -23,4 +25,4 @@ urlpatterns = [
     path('procura/<str:name>', procura_nome),
     path('procura_pessoa/<str:name>', procura_nome_pessoa),
     path('admin/', admin.site.urls),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
