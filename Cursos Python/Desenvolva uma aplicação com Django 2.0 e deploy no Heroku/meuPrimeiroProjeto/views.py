@@ -23,6 +23,3 @@ def lerBanco(nome):
 
 def procura_nome(request, name):
     return HttpResponse(lerBanco(name))
-
-
-
