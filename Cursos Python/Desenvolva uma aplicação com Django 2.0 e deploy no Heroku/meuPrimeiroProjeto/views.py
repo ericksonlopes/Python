@@ -1,8 +1,9 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def hello(request):
-    return HttpResponse('Olá mundo')
+    return render(request, 'index.html')
 
 
 def articles(request, anos):
@@ -23,3 +24,8 @@ def lerBanco(nome):
 
 def procura_nome(request, name):
     return HttpResponse(lerBanco(name))
+
+
+def procura_nome_pessoa(request, name):
+    pessoa = lerBanco(name)
+    return render(request, 'pessoa.html', {'pessoa': pessoa})
