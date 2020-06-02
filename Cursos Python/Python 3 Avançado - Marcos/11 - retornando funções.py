@@ -13,4 +13,5 @@ def pai(num):
 
 
 pai(11)
+pai(10)
 
