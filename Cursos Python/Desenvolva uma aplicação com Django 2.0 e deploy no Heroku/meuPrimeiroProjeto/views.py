@@ -2,30 +2,30 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 
+def manda_numero(request, num):
+    return HttpResponse(f'Número enviado: {num}')
+
+
 def hello(request):
     return render(request, 'index.html')
 
 
-def articles(request, anos):
-    return HttpResponse(f'ele tem {anos}')
-
-
-def lerBanco(nome):
-    lista_nomes = [
-        {'nome': 'Marcelo', 'idade': 18},
-        {'nome': 'adriana', 'idade': 28},
-        {'nome': 'lucia', 'idade': 48}
+def lerdobanco(nome):
+    lista = [
+        {'name': 'ana', 'idade': 18},
+        {'name': 'camile', 'idade': 45},
+        {'name': 'ponte', 'idade': 16}
     ]
-    for item in lista_nomes:
-        if item['nome'] == nome:
-            return f'O {item["nome"]} tem {item["idade"]} anos'
-    return 'Nenhum item encontrado'
+    for item in lista:
+        if item['name'] == nome:
+            return item
+    return {'name': 'item não encontrdo', 'idade': 0}
 
 
-def procura_nome(request, name):
-    return HttpResponse(lerBanco(name))
+def fname(request, name):
+    return HttpResponse(f'{lerdobanco(name)}')
 
 
-def procura_nome_pessoa(request, name):
-    pessoa = lerBanco(name)
-    return render(request, 'pessoa.html', {'pessoa': pessoa})
+def fname2(request, name):
+    idade = lerdobanco(name)
+    return render(request, 'pessoa.html', {'age': idade['idade'], 'name': idade['name']})

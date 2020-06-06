@@ -8,6 +8,6 @@ class Person(models.Model):
     salary = models.DecimalField(max_digits=5, decimal_places=2)
     bio = models.TextField()
     photo = models.ImageField(upload_to='clients_photos', null=True, blank=True)
-
+    
     def __str__(self):
-        return f'{self.first_name} {self.last_name}'
+        return f"{self.first_name} { self.last_name}"

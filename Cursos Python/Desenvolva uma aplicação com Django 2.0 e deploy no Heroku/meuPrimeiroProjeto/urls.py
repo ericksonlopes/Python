@@ -15,16 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import hello, articles, procura_nome, procura_nome_pessoa
+
 from django.conf import settings
 from django.conf.urls.static import static
-from clientes import urls as clientes_app
+from .views import hello, manda_numero, fname, fname2
+from clientes import urls as clientes_urls
 
 urlpatterns = [
+    path('busca/<str:name>/', fname),
+    path('pesquisa/<str:name>/', fname2),
     path('hello/', hello),
-    path('articles/<int:anos>', articles),
-    path('procura/<str:name>', procura_nome),
-    path('procura_pessoa/<str:name>', procura_nome_pessoa),
+    path('numero/<int:num>/', manda_numero),
     path('admin/', admin.site.urls),
-    path('person/', include(clientes_app))
+    path('person/', include(clientes_urls))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
