@@ -414,7 +414,7 @@ class NoseTester(object):
 
         # reset doctest state on every run
         import doctest
-        doctest.master = None
+        doctest.main = None
 
         if raise_warnings is None:
             raise_warnings = self.raise_warnings
