@@ -1,5 +1,6 @@
 # filter(function, iterable)
 
+# todo: filter greater than 5
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(list(filter(lambda num: num > 5, numbers)))
 
@@ -13,6 +14,7 @@ print(list(filter(lambda nome: 'o' in nome, names)))
 # Output
 # ['João', 'Pedro', 'José']
 
+# todo: filter even numbers
 def is_even(num):
     return num % 2 == 0
 

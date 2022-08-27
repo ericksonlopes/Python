@@ -1,5 +1,6 @@
 # map(function, iterables)
 
+# todo: count the number of characters in a string
 fruits = ('apple', 'banana', 'cherry')
 
 print(list(map(len, fruits)))
@@ -9,7 +10,7 @@ print(list(map(lambda fruit: len(fruit), fruits)))
 # Output
 # [5, 6, 6]
 
-
+# todo: create list of strings without spaces
 def remove_space(string):
     return string.replace(' ', '')
 
@@ -25,6 +26,7 @@ print(list(map(lambda item: remove_space(item), music)))
 # Output
 # ['Unknown:HowieWeinberg', 'Vocals:DamonAlbarn', 'Unknown:DangerMouse']
 
+# todo: create list of sum of two lists
 def add(x, y):
     return x + y
 

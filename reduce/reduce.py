@@ -1,6 +1,7 @@
 from functools import reduce
 
 
+# todo: create list of sum of two lists
 def add(x, y):
     return x + y
 
@@ -15,6 +16,8 @@ print(reduce(lambda x, y: x + y, numbers, 10))
 # Output
 # 13
 
+# todo: error if list is empty
+
 try:
     print(reduce(lambda x, y: x + y, []))
 except TypeError as error:
@@ -24,13 +27,13 @@ except TypeError as error:
 
 
 numbers = [1, 2, 3, 4, 5]
-# Capture maximum value
+# todo: Capture maximum value
 print(reduce(lambda a, b: a if a > b else b, numbers))
 print(max(numbers))
 # output
 # 5
 
-# Capture minimum value
+# todo: Capture minimum value
 print(reduce(lambda a, b: a if a < b else b, numbers))
 print(min(numbers))
 # output
