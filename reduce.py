@@ -21,3 +21,17 @@ except TypeError as error:
     print(error)
 # Output
 # reduce() of empty sequence with no initial value
+
+
+numbers = [1, 2, 3, 4, 5]
+# Capture maximum value
+print(reduce(lambda a, b: a if a > b else b, numbers))
+print(max(numbers))
+# output
+# 5
+
+# Capture minimum value
+print(reduce(lambda a, b: a if a < b else b, numbers))
+print(min(numbers))
+# output
+# 1
