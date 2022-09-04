@@ -15,6 +15,9 @@ print(compare(2, 9))
 
 # todo: Surrounding the function and its arguments with parentheses:
 print((lambda x, y: x + y)(1, 2))
+
+soma = (lambda x, y: x + y)
+print(soma(1, 2))
 # Output
 # 3
 
