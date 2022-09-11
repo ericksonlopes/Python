@@ -37,3 +37,15 @@ if __name__ == '__main__':
     # todo: get str representation
     print(person)
     # John is 30 years old and has a deficiency: True
+
+    # todo: get field data
+    print(f'{person.name=}, {person.age=}')
+    # person.name='John', person.age=30
+
+    # todo: Person to dict
+    print(person.__dict__)
+    # {'name': 'John', 'age': 30}
+
+    # todo: get Class name
+    print(person.__class__.__name__)
+    # Person

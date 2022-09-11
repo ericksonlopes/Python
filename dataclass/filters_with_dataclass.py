@@ -14,28 +14,26 @@ class Car:
 
 
 @dataclass
-class CarsFilter(Car):
+class CarsFilter:
     name: str = None
     year: int = None
     price: float = None
     is_used: bool = None
 
     def __call__(self, cars: List[Car]) -> List[Car]:
-        list_cars = []
-
         if self.name:
-            list_cars = list(filter(lambda car: car.name == self.name, cars))
+            cars = list(filter(lambda car: car.name == self.name, cars))
 
         if self.year:
-            list_cars = list(filter(lambda car: car.year == self.year, cars))
+            cars = list(filter(lambda car: car.year == self.year, cars))
 
         if self.price:
-            list_cars = list(filter(lambda car: car.price == self.price, cars))
+            cars = list(filter(lambda car: car.price == self.price, cars))
 
         if self.is_used:
-            list_cars = list(filter(lambda car: car.is_used == self.is_used, cars))
+            cars = list(filter(lambda car: car.is_used == self.is_used, cars))
 
-        return list_cars
+        return cars
 
 
 if __name__ == '__main__':
