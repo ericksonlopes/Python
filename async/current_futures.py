@@ -5,6 +5,7 @@ url = "https://jsonplaceholder.typicode.com/todos/3"
 
 
 def make_request():
+    """Make a request to the url and return the response content"""
     response = requests.get(url)
     return response.content
 
