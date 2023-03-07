@@ -1,15 +1,25 @@
-import requests
 import concurrent.futures
+import json
 
-url = "https://jsonplaceholder.typicode.com/todos/3"
+import requests
+
+url = "https://jsonplaceholder.typicode.com/todos/"
 
 
-def make_request():
-    """Make a request to the url and return the response content"""
-    response = requests.get(url)
+def make_request(id_user: str) -> bytes:
+    """Faça uma solicitação para a url e retorne o conteúdo da resposta"""
+    response = requests.get(url + id_user)
     return response.content
 
-with concurrent.futures.ThreadPoolExecutor() as executor:
-    results = [executor.submit(make_request) for _ in range(10)]
-    for f in concurrent.futures.as_completed(results):
-        print(f.result())
+
+def main() -> dict:
+    """Use concurrent.futures para fazer várias requisições de uma só vez"""
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        tasks = [executor.submit(make_request, id_user=str(num)) for num in range(10)]
+
+        for result in concurrent.futures.as_completed(tasks):
+            yield json.loads(result.result())
+
+
+lista_requests = list(main())
+print(lista_requests)
