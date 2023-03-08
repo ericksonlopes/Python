@@ -1,5 +1,6 @@
 import concurrent.futures
 import json
+from typing import Generator
 
 import requests
 
@@ -12,7 +13,7 @@ def make_request(id_user: str) -> bytes:
     return response.content
 
 
-def main() -> dict:
+def main() -> Generator[dict, None]:
     """Use concurrent.futures para fazer várias requisições de uma só vez"""
     with concurrent.futures.ThreadPoolExecutor() as executor:
         tasks = [executor.submit(make_request, id_user=str(num)) for num in range(10)]

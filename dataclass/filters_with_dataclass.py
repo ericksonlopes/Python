@@ -41,7 +41,7 @@ if __name__ == '__main__':
     camaro = Car('Camaro', 2018, 175.52, True)
     honda = Car('Honda', 2019, 248.66, False)
 
-    # todo: create list of cars
+    # Create list of cars
     list_car = [chevrolet, camaro, honda]
 
     filter_car = CarsFilter(name='Chevrolet')
