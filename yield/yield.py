@@ -3,7 +3,7 @@
 from typing import Generator
 
 
-def create_generator(num: int) -> Generator[int, None]:
+def create_generator(num: int) -> Generator:
     """Create a generator that yields numbers from 0 to num - 1."""
     for i in range(num):
         yield i
