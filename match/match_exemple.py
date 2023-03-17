@@ -3,7 +3,7 @@ data = ["erick", "santos", "silva"]
 match data:
     case []:
         print('Empty')
-    case [first, second, ]:
+    case [first, second]:
         print(f"{first} and {second}")
     case [first, second, third]:
         print(f"{first} and {second} and {third}")
@@ -27,3 +27,11 @@ def calculator(a, b, operator):
 
 
 print(calculator(1, 2, '+'))
+
+data = 'erick'
+
+match data:
+    case nome if nome == 'erick':
+        print('Erick')
+    case nome if nome == 'santos':
+        print('Santos')
