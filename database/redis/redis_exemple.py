@@ -46,20 +46,26 @@ if __name__ == '__main__':
     DB = 0
     redis = Redis(HOST, PORT, DB)
 
+    # create
     redis.create({'name': 'John', 'login': 1})
     print(redis.read('John'))
 
+    # update
     redis.update({'name': 'John', 'login': 0})
     print(redis.read('John'))
 
+    # delete
     redis.delete({'name': 'John'})
     print(redis.read('John'))
 
+    # create hash
     redis.create_hash({'name': 'John', 'login': 1})
     print(redis.read_hash('John'))
 
+    # update hash
     redis.update_hash({'name': 'John', 'login': 0})
     print(redis.read_hash('John'))
 
+    # delete hash
     redis.delete_hash({'name': 'John'})
     print(redis.read_hash('John'))
