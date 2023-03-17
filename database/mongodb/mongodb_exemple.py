@@ -43,12 +43,15 @@ if __name__ == '__main__':
     URL_MONGODB = 'mongodb://localhost:27017/'
     mongo = MongoDB(URL_MONGODB)
 
+    # create
     mongo.create({'name': 'John', 'login': True})
     mongo.read({'name': 'John'})
 
+    # update
     mongo.update({'name': 'John'}, {'$set': {'login': False}})
     mongo.read({'name': 'John'})
 
+    # delete
     mongo.delete({'name': 'John'})
     mongo.read({'name': 'John'})
 
