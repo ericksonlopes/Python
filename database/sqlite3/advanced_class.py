@@ -8,7 +8,7 @@ class ConnSQLite:
     def __enter__(self):
         return self.conn.cursor()
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
+    def __exit__(self, *args, **kwargs):
         self.conn.close()
 
 
