@@ -22,6 +22,6 @@ print(soma(1, 2))
 # 3
 
 person = {'name': 'Ana', 'age': 23}
-print((lambda x: f"My name is {person['name']}, and I am {person['age']} years old")(person))
+print((lambda x: f"My name is {x['name']}, and I am {x['age']} years old")(person))
 # Output
 # My name is Ana, and I am 23 years old
