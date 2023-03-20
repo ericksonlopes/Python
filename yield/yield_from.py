@@ -8,7 +8,7 @@ def create_generator(num: int) -> Generator:
     return_list = []
     for i in range(num):
         return_list.append(i)
-        
+
     yield from return_list
 
 
