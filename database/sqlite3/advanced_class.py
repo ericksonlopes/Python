@@ -1,5 +1,6 @@
 import sqlite3
 
+
 class ConnSQLite:
     def __init__(self, conn_str) -> None:
         self.conn = sqlite3.connect(conn_str)
@@ -9,7 +10,7 @@ class ConnSQLite:
     
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.conn.close()
-        
+
         
 if __name__ == '__main__':
     
