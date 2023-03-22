@@ -21,6 +21,7 @@ class CarsFilter:
     is_used: bool = None
 
     def __call__(self, cars: List[Car]) -> List[Car]:
+        self.cars = cars
         if self.name:
             cars = list(filter(lambda car: car.name == self.name, cars))
 
@@ -35,6 +36,8 @@ class CarsFilter:
 
         return cars
 
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print(f"{len(self.cars)} cars were filtered")
 
 if __name__ == '__main__':
     chevrolet = Car('Chevrolet', 2020, 200.00, True)
