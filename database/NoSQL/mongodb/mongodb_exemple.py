@@ -2,7 +2,7 @@
 import pymongo
 
 
-class MongoDB:
+class MongoDBCRUD:
     def __init__(self, url):
         self.client = pymongo.MongoClient(url)
         self.db = self.client['tests']
@@ -41,7 +41,7 @@ class MongoDB:
 
 if __name__ == '__main__':
     URL_MONGODB = 'mongodb://localhost:27017/'
-    mongo = MongoDB(URL_MONGODB)
+    mongo = MongoDBCRUD(URL_MONGODB)
 
     # create
     mongo.create({'name': 'John', 'login': True})

@@ -2,7 +2,7 @@
 import redis
 
 
-class Redis:
+class RedisCRUD:
     def __init__(self, host, port, db):
         redis_pool = redis.ConnectionPool(
             host=host,
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     HOST = 'localhost'
     PORT = 6379
     DB = 0
-    redis = Redis(HOST, PORT, DB)
+    redis = RedisCRUD(HOST, PORT, DB)
 
     # create
     redis.create({'name': 'John', 'login': 1})

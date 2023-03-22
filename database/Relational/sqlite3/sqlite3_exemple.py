@@ -1,7 +1,7 @@
 import sqlite3
 
 
-class SQLite:
+class SQLiteCRUD:
     def __init__(self) -> None:
         self.conn = sqlite3.connect('database.db')
         self.c = self.conn.cursor()
@@ -32,7 +32,7 @@ class SQLite:
 
 
 if __name__ == '__main__':
-    sqlite = SQLite()
+    sqlite = SQLiteCRUD()
 
     # create
     sqlite.create({'name': 'John', 'login': 1})
