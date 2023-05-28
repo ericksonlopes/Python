@@ -4,7 +4,7 @@ from sqlalchemy.orm import DeclarativeBase
 
 
 class Base(DeclarativeBase):
-    """Base class for all tables"""
+    """Base classes for all tables"""
     pass
 
 
